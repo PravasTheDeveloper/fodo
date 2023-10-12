@@ -20,3 +20,38 @@ body {
 .welcome {
   font-family: 'Pacifico', cursive;
 }
+
+.bg-white-hello {
+  background-blend-mode: lighten;
+  background: #ffffffa6;
+  background-image: url("../../public/images/eggsomehitng.jpg");
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .bg-white-hello{
+    background-image: none;
+    background-color: transparent;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(180, 180, 180); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #22c55e; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #15803d; 
+}

@@ -12,7 +12,7 @@ export default function Menu() {
                 <div className='text-4xl text-center mb-16'>
                     Explore Our Menu
                 </div>
-                <div className='w-full h-auto flex flex-wrap justify-between'>
+                <div className='w-full h-auto flex flex-wrap md:justify-between justify-center'>
                     {
                         MenuFood.map((data, index) => {
                             return (<FoodCard

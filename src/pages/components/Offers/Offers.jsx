@@ -7,14 +7,14 @@ export default function Offers() {
 
     return (
         <>
-            <div className='w-full h-auto container mx-auto py-10'>
+            <div className='w-full h-auto container mx-auto pt-24 md:pt-0 md:py-10'>
                 <div className='welcome text-green-500 text-xl text-center mb-7'>
                     Offers
                 </div>
                 <div className='text-4xl text-center mb-16'>
                     Best Offers For All
                 </div>
-                <div className='w-full h-[400px] flex flex-wrap justify-between'>
+                <div className='w-full h-auto flex flex-wrap md:justify-between justify-center'>
                     {
                         OfferFood.map((data, index) => {
                             return (<FoodCard
