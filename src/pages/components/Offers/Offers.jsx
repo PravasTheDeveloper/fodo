@@ -14,7 +14,7 @@ export default function Offers() {
                 <div className='text-4xl text-center mb-16'>
                     Best Offers For All
                 </div>
-                <div className='w-full h-auto flex flex-wrap md:justify-between justify-center'>
+                <div className='w-full h-auto flex flex-wrap md:justify-between justify-center md:px-0 px-5'>
                     {
                         OfferFood.map((data, index) => {
                             return (<FoodCard

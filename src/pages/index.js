@@ -6,6 +6,7 @@ import Menu from './components/Menu/Menu'
 import Testimonial from './components/Testomonial/Testimonial'
 import Footer from './components/Footer/Footer'
 import Head from 'next/head'
+import Messnger from './components/Messenger/Messnger'
 
 export default function index() {
   return (
@@ -19,6 +20,7 @@ export default function index() {
       <Menu />
       <Testimonial />
       <Footer />
+      <Messnger />
     </>
   )
 }
