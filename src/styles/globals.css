@@ -24,7 +24,7 @@ body {
 .bg-white-hello {
   background-blend-mode: lighten;
   background: #ffffffa6;
-  background-image: url("../../public/images/eggsomehitng.jpg");
+  background-image: url("/images/eggsomehitng.jpg");
   background-size: cover;
 }
 

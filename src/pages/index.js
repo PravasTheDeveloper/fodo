@@ -11,7 +11,6 @@ export default function index() {
   return (
     <>
       <Head>
-        {/* <link rel="shortcut icon" href={favicon} /> */}
         <link rel="shortcut icon" href="/images/icon.png" />
       </Head >
       <HomePage />
