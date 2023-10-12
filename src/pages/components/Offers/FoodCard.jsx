@@ -23,11 +23,11 @@ export default function FoodCard({ name, image, price, rating, offerPrice }) {
                             {rating == 5 ? <BsStarFill className='mr-2'  /> : rating > 4.5 ? <BsStarHalf className='mr-2'  /> :<BsStar className='mr-2' />}
                         </div>
                         <div className='w-full flex text-xl'>
-                            <div className='w-1/2 line-through'>
+                            <div className={`w-1/2 ${offerPrice > 0 ? "line-through" : null}`}>
                                 {price} $
                             </div>
                             <div className='w-1/2 flex justify-end text-2xl font-semibold'>
-                                {offerPrice} $
+                                {offerPrice == 0 ? null : `offerPrice $`} 
                             </div>
                         </div>
                     </div>
