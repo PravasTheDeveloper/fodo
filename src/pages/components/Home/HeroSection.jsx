@@ -3,7 +3,7 @@ import React from 'react'
 export default function HeroSection() {
     return (
         <>
-            <div className={`w-full h-[92%] px-5 flex items-center container mx-auto bg-white-hello`}>
+            <div id="HomePageScroll" className={`w-full h-[100%] pt-10 md:pt-0 md:h-[92%] px-5 flex items-center container mx-auto bg-white-hello`}>
                 <div className='w-full md:w-[60%]'>
                     <div className='w-full md:w-[90%] h-full'>
                         <div className='md:text-6xl text-5xl md:text-left text-center font-semibold md:leading-[80px]'>

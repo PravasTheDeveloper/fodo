@@ -8,6 +8,8 @@ import Footer from './components/Footer/Footer'
 import Head from 'next/head'
 import Messnger from './components/Messenger/Messnger'
 
+
+
 export default function index() {
   return (
     <>

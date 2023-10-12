@@ -4,7 +4,7 @@ import TestimonialData from '../../../../TestimonialData';
 
 const Testimonial = () => {
   return (
-    <div className="mx-auto text-center container mb-24 md:px-0 px-5">
+    <div id="TestimonialsScroll" className="mx-auto text-center container mb-24 md:px-0 px-5">
       <div className="mb-6 text-3xl font-bold welcome text-green-500">
         Testimonials
       </div>

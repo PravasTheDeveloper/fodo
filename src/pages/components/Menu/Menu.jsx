@@ -5,7 +5,7 @@ import FoodCard from '../Offers/FoodCard'
 export default function Menu() {
     return (
         <>
-            <div className='w-full h-auto container mx-auto py-28'>
+            <div id="MenuScroll" className='w-full h-auto container mx-auto py-28'>
                 <div className='welcome text-green-500 text-xl text-center mb-7'>
                     Menu
                 </div>

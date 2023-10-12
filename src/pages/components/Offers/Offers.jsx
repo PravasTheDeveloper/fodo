@@ -7,7 +7,7 @@ export default function Offers() {
 
     return (
         <>
-            <div className='w-full h-auto container mx-auto pt-24 md:pt-0 md:py-10'>
+            <div id="OfferScroll" className='w-full h-auto container mx-auto pt-24 md:pt-0 md:py-10'>
                 <div className='welcome text-green-500 text-xl text-center mb-7'>
                     Offers
                 </div>

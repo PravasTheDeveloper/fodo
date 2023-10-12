@@ -28,6 +28,10 @@ body {
   background-size: cover;
 }
 
+.bg-color{
+  background: #ffffffa6;
+}
+
 @media (min-width: 768px) {
   .bg-white-hello{
     background-image: none;
