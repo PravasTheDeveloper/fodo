@@ -27,7 +27,7 @@ export default function FoodCard({ name, image, price, rating, offerPrice }) {
                                 {price} $
                             </div>
                             <div className='w-1/2 flex justify-end text-2xl font-semibold'>
-                                {offerPrice == 0 ? null : `offerPrice $`} 
+                                {offerPrice == 0 ? null : `${offerPrice} $`} 
                             </div>
                         </div>
                     </div>
