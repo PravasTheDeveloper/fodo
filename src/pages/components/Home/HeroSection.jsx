@@ -12,9 +12,9 @@ export default function HeroSection() {
                         <div className='md:max-w-[70%] w-full md:my-20 md:text-left text-center my-10'>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus illum alias, voluptatem beatae doloremque expedita eveniet veritatis qui tempora.
                         </div>
-                        <div className='w-auto h-[50px] flex'>
-                            <input type="text" className='w-[300px] h-full rounded-full mr-6 px-5 outline-green-500' placeholder='Enter Your Email' />
-                            <button className="h-full w-[100px] rounded-full bg-green-500 text-white font-semibold">Sent</button>
+                        <div className='w-auto h-[130px] md:h-[50px] flex md:flex-row flex-col'>
+                            <input type="text" className='md:w-[300px] w-full h-full rounded-full mr-6 px-5 outline-green-500' placeholder='Enter Your Email' />
+                            <button className="h-full mt-[30px] md:mt-0 w-full md:w-[100px] rounded-full bg-green-500 text-white font-semibold">Sent</button>
                         </div>
                     </div>
                 </div>
