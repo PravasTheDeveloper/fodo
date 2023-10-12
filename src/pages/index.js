@@ -5,10 +5,15 @@ import Offers from './components/Offers/Offers'
 import Menu from './components/Menu/Menu'
 import Testimonial from './components/Testomonial/Testimonial'
 import Footer from './components/Footer/Footer'
+import Head from 'next/head'
 
 export default function index() {
   return (
     <>
+      <Head>
+        {/* <link rel="shortcut icon" href={favicon} /> */}
+        <link rel="shortcut icon" href="/images/icon.png" />
+      </Head >
       <HomePage />
       <WelcomeSection />
       <Offers />
